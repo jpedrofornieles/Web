@@ -16,7 +16,7 @@ article{
 	float:right;
 	width:30%;
 	height:100%;
-	min-height:400px;
+	min-height:350px;
 	margin-top:5%;
 	margin-right:30%;
 }
@@ -28,7 +28,7 @@ article section h2{
 	font-weight: normal;
 	color: black;
 	padding-top:4%;
-	border-bottom: 2px solid black;
+	border-bottom: 1px solid black;
 	width:90%;
 	padding-bottom:4%;
 }
@@ -49,12 +49,12 @@ article section span img{
 	color: black;
 }
 #position{
-	font-size: 18px;
+	font-size: 16px;
 	font-weight: normal;
 	color: blue;
 }
 #department {
-	font-size: 15px;
+	font-size: 12px;
 	font-weight: normal;
 	color: green;
 }
@@ -79,7 +79,7 @@ aside{
 	float: left;
 	width: 15%;
 	height: 100%;
-	min-height:400px;
+	min-height:350px;
 	margin-left: 25%;
 	margin-top:5%;
 }
@@ -91,7 +91,25 @@ aside nav {
 	margin-left:15%;
 
 }
+#cabecera{
+	padding-top:5%;
+	padding-left:15%;
+}
 #main{
-	padding-top:2%;
-	padding-left:5%;
+	padding-top:5%;
+	padding-left:15%;
+}
+article section span{
+	font-size: 12px;
+}
+.tamicon{
+	width:7%;
+	height:7%;
+}
+.posicion{
+	padding-left:10%;
+}
+.posblue{
+	padding-left:10%;
+	color:blue;
 }
