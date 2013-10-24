@@ -11,10 +11,51 @@ details, figcaption, figure, footer, header, hgroup, menu, nav, aside,section, s
 	background: transparent;
 }
 
-#azulppal{
+article{
 	background-color:#00FFFF;
+	float:right;
+	width:65%;
+	height:100%;
+	min-height:400px;
+	margin-top:5%;
+	margin-right:10%;
 }
-img{
+article header{
+	float:left;
+}
+
+article section h2{
+	font-size: 15px;
+	font-weight: normal;
+	color: black;
+	padding-top:2%;
+}
+#name {
+	font-size: 22px;
+	font-weight: normal;
+	color: black;
+}
+#position{
+	font-size: 18px;
+	font-weight: normal;
+	color: blue;
+}
+#department {
+	font-size: 15px;
+	font-weight: normal;
+	color: green;
+}
+#company{
+	font-size: 12px;
+	font-style:italic;
+	font-weight: normal;
+	color: black;
+}
+#companyb{
+	font-size:12px;
+	color:black;
+}
+aside header img{
 	display:block;
 	margin:auto;
 	margin-top:5%;
@@ -24,11 +65,10 @@ aside{
 	background-color:#00CDF1;
 	float: left;
 	width: 15%;
-	height: 400px;
+	height: 100%;
+	min-height:400px;
 	margin-left: 10%;
 	margin-top:5%;
-	font-size: 16px;
-    padding-bottom: 20px; 
 }
  
 aside nav {
@@ -37,4 +77,8 @@ aside nav {
 	text-align:justify;
 	margin-left:15%;
 
+}
+#main{
+	padding-top:2%;
+	padding-left:5%;
 }
