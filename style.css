@@ -107,9 +107,9 @@ article section span{
 	height:7%;
 }
 .posicion{
-	padding-left:10%;
+	padding-left:8%;
+	vertical-align:super;
 }
-.posblue{
-	padding-left:10%;
-	color:blue;
+a{
+	text-decoration:none;   
 }
