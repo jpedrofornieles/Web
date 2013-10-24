@@ -20,12 +20,16 @@ article{
 	margin-top:5%;
 	margin-right:10%;
 }
-
+article section h1{
+	width:80%;
+}
 article section h2{
 	font-size: 15px;
 	font-weight: normal;
 	color: black;
 	padding-top:2%;
+	border-bottom: 2px solid black;
+	width:80%;
 }
 
 #posicionar{
@@ -34,8 +38,8 @@ article section h2{
 	left:70%;
 }
 article section span img{
-	width:29%;
-	height:29%;
+	width:25%;
+	height:25%;
 	background-color:#00FFFF;
 }
 #name {
