@@ -1,7 +1,7 @@
 html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, 
 code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, 
-fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, 
-details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, canvas, 
+details, figcaption, figure, footer, header, hgroup, menu, nav, aside,section, summary, time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -9,4 +9,32 @@ details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary
 	font-size: 100%;
 	vertical-align: baseline;
 	background: transparent;
+}
+
+#azulppal{
+	background-color:#00FFFF;
+}
+img{
+	display:block;
+	margin:auto;
+	margin-top:5%;
+	
+}
+aside{
+	background-color:#00CDF1;
+	float: left;
+	width: 15%;
+	height: 400px;
+	margin-left: 10%;
+	margin-top:5%;
+	font-size: 16px;
+    padding-bottom: 20px; 
+}
+ 
+aside nav {
+	color:blue;
+	padding-top:25%;
+	text-align:justify;
+	margin-left:15%;
+
 }
