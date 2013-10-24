@@ -20,15 +20,26 @@ article{
 	margin-top:5%;
 	margin-right:10%;
 }
-article header{
-	float:left;
-}
 
+article section h1{
+	width:20%;
+}
 article section h2{
 	font-size: 15px;
 	font-weight: normal;
 	color: black;
 	padding-top:2%;
+	width:20%;
+}
+
+#posicionar{
+	position:absolute;
+	top:12%;
+	right:15%;
+}
+article section span img{
+	width:60%;
+	height:60%;
 }
 #name {
 	font-size: 22px;
