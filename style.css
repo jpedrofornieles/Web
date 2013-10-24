@@ -85,11 +85,10 @@ aside{
 }
  
 aside nav {
-	color:blue;
 	padding-top:25%;
 	text-align:justify;
 	margin-left:15%;
-
+	color:blue;
 }
 #cabecera{
 	padding-top:5%;
@@ -107,9 +106,31 @@ article section span{
 	height:7%;
 }
 .posicion{
-	padding-left:8%;
+	padding-left:5%;
 	vertical-align:super;
 }
 a{
 	text-decoration:none;   
+	color:blue;
+}
+a.enlace:hover{
+	color:gold;
+	background-color:#00CDF1;
+	text-decoration: none;
+	border: 1px solid;
+	border-top-color:white;
+	border-right-color:white;
+	border-left-color:#00CDF1;
+	border-bottom-color:#00CDF1;
+}
+a:hover{
+	color:red;
+}
+.menu{
+	font-family:'Arial';
+	text-decoration:none;
+	background:#00CDF1;
+	text-transform: uppercase;
+	width:80%; 
+	list-style: none;
 }
