@@ -14,11 +14,11 @@ details, figcaption, figure, footer, header, hgroup, menu, nav, aside,section, s
 article{
 	background-color:#00FFFF;
 	float:right;
-	width:65%;
+	width:30%;
 	height:100%;
 	min-height:400px;
 	margin-top:5%;
-	margin-right:10%;
+	margin-right:30%;
 }
 article section h1{
 	width:80%;
@@ -27,19 +27,20 @@ article section h2{
 	font-size: 15px;
 	font-weight: normal;
 	color: black;
-	padding-top:2%;
+	padding-top:4%;
 	border-bottom: 2px solid black;
-	width:80%;
+	width:90%;
+	padding-bottom:4%;
 }
 
 #posicionar{
 	position:absolute;
 	top:12%;
-	left:70%;
+	left:60%;
 }
 article section span img{
-	width:25%;
-	height:25%;
+	width:19%;
+	height:19%;
 	background-color:#00FFFF;
 }
 #name {
@@ -79,7 +80,7 @@ aside{
 	width: 15%;
 	height: 100%;
 	min-height:400px;
-	margin-left: 10%;
+	margin-left: 25%;
 	margin-top:5%;
 }
  
